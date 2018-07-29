@@ -4,6 +4,7 @@ public class Zwierze {
     private String imie;
     private int wiek;
 
+    //TODO konstruktor powinien być publiczny - tak było w zadaniu
     Zwierze(String imie, int wiek) {
         this.imie = imie;
         this.wiek = wiek;

@@ -32,6 +32,7 @@ public class Czlowiek {
 
     }
 
+    //TODO konstruktor powinien się znajdować po dekaracji pól w klasie
     public Czlowiek(String imie, String nazwisko) {
         this.imie = imie;
         this.nazwisko = nazwisko;

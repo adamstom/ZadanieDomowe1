@@ -4,6 +4,7 @@ public class Ksiazka {
     private String tytul;
     private String autor;
 
+    //TODO metoda toString powinna znajdować się na samym dole klasy
     @Override
     public String toString() {
         return "Ksiazka{" +
@@ -30,9 +31,11 @@ public class Ksiazka {
         return liczbaStron;
     }
 
+    //TODO doeklaracje pól w klasie robimy na samym początku
     private String wydawnictwo;
     private int liczbaStron;
 
+    //TODO konstruktor powinien się znajdować po dekaracji pól w klasie
     public Ksiazka(String tytul, String autor, String wydawnictwo, int liczbaStron) {
         this.tytul = tytul;
         this.autor = autor;
