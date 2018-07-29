@@ -5,5 +5,11 @@ public class DaneAdresowe {
     private String nrTelefonu;
     private String mail;
 
-    //TODO powiniśmy dodać albo konstruktor albo metody bo tak nie możemy użyć tej klasy.
+    public DaneAdresowe(String adres, String nrTelefonu, String mail) {
+        this.adres = adres;
+        this.nrTelefonu = nrTelefonu;
+        this.mail = mail;
+    }
+
+//TODO powiniśmy dodać albo konstruktor albo metody bo tak nie możemy użyć tej klasy.
 }

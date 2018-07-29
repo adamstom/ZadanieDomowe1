@@ -7,6 +7,11 @@ public class Czlowiek {
     private Zwierze zwierze;
     private DaneAdresowe daneAdresowe;
 
+    //TODO konstruktor powinien się znajdować po dekaracji pól w klasie
+    public Czlowiek(String imie, String nazwisko) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+    }
     public String getImie() {
         return imie;
     }
@@ -29,13 +34,6 @@ public class Czlowiek {
 
     public String getNazwisko() {
         return nazwisko;
-
-    }
-
-    //TODO konstruktor powinien się znajdować po dekaracji pól w klasie
-    public Czlowiek(String imie, String nazwisko) {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
     }
 
     public void przedstawSie() {
