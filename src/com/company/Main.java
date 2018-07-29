@@ -133,6 +133,9 @@ public class Main {
         App app=new App();
         app.runApp();
 
+        //Zadaie 11
+        App2 app2=new App2();
+        app2.runApp();
     }
 }
 
