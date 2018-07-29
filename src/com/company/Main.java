@@ -126,6 +126,12 @@ public class Main {
         for(Ksiazka ksiazka:listaKsiazek){
             System.out.println(ksiazka);
         }
+
+        //Zadanie 10
+
+        App app=new App();
+        app.runApp();
+
     }
 }
 
